@@ -1,0 +1,49 @@
+*{
+    font-family: Arial, sans-serif; 
+     ;
+    padding: 0px;
+    margin:0px;
+}
+
+
+.carousel {
+    margin-bottom: 2rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 35rem;
+  }
+
+.c-item{
+    height:510px;
+}
+.c-img{
+    height:100%;
+    object-fit:fill;
+    filter:brightness(0.45);
+
+}
+.navbar{
+    margin-top:-15px;
+}
+
+.pad12{
+margin-top: 100px;
+}
+
+.carousel-caption {
+    margin-bottom:135px; /* Increase this value to move the caption higher */
+  }
+
+.navbar-brand img{
+  padding-bottom: 4px;
+}
+.navbar-brand a{
+  padding-right: 5px;
+}
